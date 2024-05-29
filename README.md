@@ -1,5 +1,6 @@
 # MolGC
 MolGC: Molecular Geometry Comparator Algorithm for Bond Length Mean Absolute Error Computation on Molecules
+
 ![image](https://github.com/AbimaelGP/MolGC/assets/167240268/99c9a283-d1c8-4ee2-8685-5f0e09364993)
 
 ## This paper is currently under review
@@ -30,9 +31,13 @@ Fifth level: Finally, inside the folders of each different theory level (e.g., L
 ## 2)Ensure to add a folder named "SoftwareMolGC" inside the main folder.
 
 Example: C:\Users\Assigned User\Desktop\Mainfolder\SoftwareMolGC
-place the executable Main.exe file inside the folder
+download the .exe file from:
+https://drive.google.com/file/d/1LIWz2i9R6OR2iskV27tD4KlR1kloa0h3/view?usp=sharing
+place the executable Main.exe file inside the "SoftwareMolGC" folder.
 
-## 3)Ensure to add a folder named "SoftwareMolGC" inside the main folder.
+## 3)Start making comparisons.
+
+Attention: We recommend disabling your computer's antivirus software so that it does not recognise the Main.exe program as a threat.
 
 Run the Main.exe to start making comparisons and give the reference when requested by the programme. 
 
