@@ -35,7 +35,7 @@ Ensure to add a folder named "SoftwareMolGC" inside the main folder.
 
 Example: C:\Users\Assigned User\Desktop\Mainfolder\SoftwareMolGC
 download the .exe file from:
-[](https://drive.google.com/file/d/1LIWz2i9R6OR2iskV27tD4KlR1kloa0h3/view?usp=sharing)
+[ruta](https://drive.google.com/file/d/1LIWz2i9R6OR2iskV27tD4KlR1kloa0h3/view?usp=sharing)
 place the executable Main.exe file inside the "SoftwareMolGC" folder.
 
 ## 3)Initiate Your Comparative Analysis.
