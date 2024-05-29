@@ -1,0 +1,980 @@
+ Job started on host node030
+ at Sat Apr 23 15:06:21 2022
+
+ +-------------------------------------------------+
+ |                                                 |
+ |      CCC   AA    SSS  TTTTT  EEEEE  PPPP        |
+ |     C     A  A  S       T    E      P   P       |
+ |     C     AAAA   SS     T    EEE    PPPP        |
+ |     C     A  A     S    T    E      P           |
+ |      CCC  A  A  SSS     T    EEEEE  P           |
+ |                                                 |
+ +-------------------------------------------------+
+ |                                                 |
+ | Welcome to Materials Studio CASTEP version 7.0  |
+ | Ab Initio Total Energy Program                  |
+ |                                                 |
+ | Authors:                                        |
+ | M. Segall, M. Probert, C. Pickard, P. Hasnip,   |
+ | S. Clark, K. Refson, J. R. Yates, M. Payne      |
+ |                                                 |
+ | Contributors:                                   |
+ | P. Lindan, P. Haynes, J. White, V. Milman,      |
+ | N. Govind, M. Gibson, P. Tulip, V. Cocula,      |
+ | B. Montanari, D. Quigley, M. Glover,            |
+ | L. Bernasconi, A. Perlov, M. Plummer,           |
+ | E. McNellis, J. Meyer, J. Gale, D. Jochym       |
+ | J. Aarons, B. Walker, R. Gillen, D. Jones       |
+ |                                                 |
+ | Copyright (c) 2000 - 2013                       |
+ |                                                 |
+ | Please cite                                     |
+ |                                                 |
+ |     "First principles methods using CASTEP"     |
+ |                                                 |
+ |         Zeitschrift fuer Kristallographie       |
+ |           220(5-6) pp. 567-570 (2005)           |
+ |                                                 |
+ | S. J. Clark, M. D. Segall, C. J. Pickard,       |
+ | P. J. Hasnip, M. J. Probert, K. Refson,         |
+ | M. C. Payne                                     |
+ |                                                 |
+ |       in all publications arising from          |
+ |              your use of CASTEP                 |
+ |                                                 |
+ +-------------------------------------------------+
+ 
+ 
+ This version was compiled for x86_64-rhel5-intel12.0 on Nov 12 2013
+ Code version: 6201
+ 
+License checkout of MS_castep successful
+ 
+ +---------------------------------------------------+
+ |                                                   |
+ |  Using DFT-SEDC - the DFT Semi-Empirical          |
+ |  Dispersion interaction Correction module         |
+ |  Copyright (c) 2008 Erik McNellis and Joerg Meyer |
+ |  Fritz-Haber-Institut der MPG. Distributed under  |
+ |  the GNU Lesser General Public License (LGPL).    |
+ |                                                   |
+ | Please cite the following publications in all     |
+ | work arising from your use of CASTEP SEDC.        |
+ |                                                   |
+ | Erik R. McNellis, Joerg Meyer, and Karsten Reuter |
+ | Phys. Rev. B 80, 205414 (2009)                    |
+ +---------------------------------------------------+
+ 
+ 
+ Pseudo atomic calculation performed for H 1s1
+ 
+ Converged in 13 iterations to a total energy of -12.4601 eV
+ 
+ 
+ Pseudo atomic calculation performed for C 2s2 2p2
+ 
+ Converged in 17 iterations to a total energy of -145.7942 eV
+ 
+ 
+ Pseudo atomic calculation performed for N 2s2 2p3
+ 
+ Converged in 21 iterations to a total energy of -262.6886 eV
+ 
+ 
+ Pseudo atomic calculation performed for O 2s2 2p4
+ 
+ Converged in 23 iterations to a total energy of -429.2136 eV
+ 
+ 
+ Pseudo atomic calculation performed for F 2s2 2p5
+ 
+ Converged in 15 iterations to a total energy of -657.5806 eV
+ 
+ Calculation parallelised over 18 processes.
+ Data is distributed by G-vector(18-way)
+
+ ************************************ Title ************************************
+ CASTEP calculation from Materials Studio
+
+ ***************************** General Parameters ******************************
+  
+ output verbosity                               : normal  (1)
+ write checkpoint data to                       : lomefloxacina.check
+ type of calculation                            : geometry optimization
+ stress calculation                             : off
+ density difference calculation                 : off
+ electron localisation func (ELF) calculation   : off
+ Hirshfeld analysis                             : on
+ unlimited duration calculation
+ timing information                             : on
+ memory usage estimate                          : on
+ write final potential to formatted file        : off
+ write final density to formatted file          : off
+ write BibTeX reference list                    : on
+  
+ output         length unit                     : A
+ output           mass unit                     : amu
+ output           time unit                     : ps
+ output         charge unit                     : e
+ output         energy unit                     : eV
+ output          force unit                     : eV/A
+ output       velocity unit                     : A/ps
+ output       pressure unit                     : GPa
+ output     inv_length unit                     : 1/A
+ output      frequency unit                     : cm-1
+ output force constant unit                     : eV/A**2
+ output         volume unit                     : A**3
+ output   IR intensity unit                     : (D/A)**2/amu
+ output         dipole unit                     : D
+ output         efield unit                     : eV/A/e
+ output        entropy unit                     : J/mol/K
+  
+ wavefunctions paging                           : none
+ random number generator seed                   : randomised (150622321)
+ data distribution                              : optimal for this architecture
+ optimization strategy                          : balance speed and memory
+
+ *********************** Exchange-Correlation Parameters ***********************
+  
+ using functional                               : Perdew Burke Ernzerhof
+ Divergence correction                          : off
+ DFT+D: Semi-empirical dispersion correction    : on
+ SEDC with                                      : TS correction scheme
+
+ ************************* Pseudopotential Parameters **************************
+  
+ pseudopotential representation                 : reciprocal space
+ <beta|phi> representation                      : reciprocal space
+
+ **************************** Basis Set Parameters *****************************
+  
+ plane wave basis set cut-off                   :   300.0000   eV
+ size of standard grid                          :     1.5000
+ size of   fine   gmax                          :    13.3104   1/A
+ largest prime factor in FFT                    :          5
+ finite basis set correction                    : none
+
+ **************************** Electronic Parameters ****************************
+  
+ number of  electrons                           :  134.0    
+ net charge of system                           :  0.000    
+ net spin   of system                           :  0.000    
+ number of  up  spins                           :  67.00    
+ number of down spins                           :  67.00    
+ treating system as non-spin-polarized
+ number of bands                                :         67
+
+ ********************* Electronic Minimization Parameters **********************
+  
+ Method: Treating system as non-metallic,
+         and number of  SD  steps               :          1
+         and number of  CG  steps               :          4
+  
+ total energy / atom convergence tol.           : 0.2000E-05   eV
+ eigen-energy convergence tolerance             : 0.1000E-05   eV
+ max force / atom convergence tol.              : ignored
+ convergence tolerance window                   :          3   cycles
+ max. number of SCF cycles                      :        100
+ periodic dipole correction                     : NONE
+
+ ************************** Density Mixing Parameters **************************
+  
+ density-mixing scheme                          : Pulay
+ max. length of mixing history                  :         20
+ charge density mixing amplitude                : 0.5000    
+ cut-off energy for mixing                      :  300.0       eV
+ charge density mixing g-vector                 :  1.500       1/A
+
+ *********************** Population Analysis Parameters ************************
+  
+ Population analysis with cutoff                :  3.000       A
+
+ ********************** Geometry Optimization Parameters ***********************
+  
+ optimization method                            : BFGS
+ variable cell method                           : fixed basis quality
+ max. number of steps                           :        100
+ estimated bulk modulus                         :  500.0       GPa
+ estimated <frequency>                          :  1668.       cm-1
+ geom line minimiser                            : on
+ with line minimiser tolerance                  :     0.4000
+ total energy convergence tolerance             : 0.2000E-04   eV/atom
+        max ionic |force| tolerance             : 0.5000E-01   eV/A
+ max ionic |displacement| tolerance             : 0.2000E-02   A
+   max |stress component| tolerance             : 0.1000       GPa
+ convergence tolerance window                   :          2   steps
+ backup results every                           :          5   steps
+
+ *******************************************************************************
+  
+ 
+                           -------------------------------
+                                      Unit Cell
+                           -------------------------------
+        Real Lattice(A)                      Reciprocal Lattice(1/A)
+  20.0000000   0.0000000   0.0000000        0.3141593   0.0000000   0.0000000
+   0.0000000  20.0000000   0.0000000        0.0000000   0.3141593   0.0000000
+   0.0000000   0.0000000  20.0000000        0.0000000   0.0000000   0.3141593
+ 
+                       Lattice parameters(A)       Cell Angles
+                    a =   20.000000          alpha =   90.000000
+                    b =   20.000000          beta  =   90.000000
+                    c =   20.000000          gamma =   90.000000
+ 
+                       Current cell volume = 8000.000022       A**3
+ 
+                           -------------------------------
+                                     Cell Contents
+                           -------------------------------
+                         Total number of ions in cell =   44
+                      Total number of species in cell =    5
+                        Max number of any one species =   19
+ 
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            x  Element    Atom        Fractional coordinates of atoms  x
+            x            Number           u          v          w      x
+            x----------------------------------------------------------x
+            x  H            1         0.759483  -0.402268  -0.585017   x 
+            x  H            2         0.711108  -0.311025  -0.472469   x 
+            x  H            3         0.680115  -0.314186  -0.555939   x 
+            x  H            4         0.645802  -0.487827  -0.444054   x 
+            x  H            5         0.687056  -0.421685  -0.400625   x 
+            x  H            6         0.769658  -0.503664  -0.431768   x 
+            x  H            7         0.742287  -0.506099  -0.516124   x 
+            x  H            8         0.814343  -0.397322  -0.448636   x 
+            x  H            9         0.867896  -0.340820  -0.567223   x 
+            x  H           10         0.802169  -0.286405  -0.593371   x 
+            x  H           11         0.827141  -0.287486  -0.508440   x 
+            x  H           12         0.475394  -0.253525  -0.466782   x 
+            x  H           13         0.388405  -0.557598  -0.563165   x 
+            x  H           14         0.475450  -0.544218  -0.568886   x 
+            x  H           15         0.318019  -0.491245  -0.530066   x 
+            x  H           16         0.484636  -0.561304  -0.442768   x 
+            x  H           17         0.397332  -0.579338  -0.441071   x 
+            x  H           18         0.452936  -0.632903  -0.485111   x 
+            x  H           19         0.179503  -0.329202  -0.525815   x 
+            x  C            1         0.769294  -0.374090  -0.538568   x 
+            x  C            2         0.702023  -0.344526  -0.515625   x 
+            x  C            3         0.681028  -0.446160  -0.450195   x 
+            x  C            4         0.748938  -0.473200  -0.472489   x 
+            x  C            5         0.585700  -0.382122  -0.494726   x 
+            x  C            6         0.819616  -0.318981  -0.552867   x 
+            x  C            7         0.536087  -0.430389  -0.507642   x 
+            x  C            8         0.466666  -0.418719  -0.507377   x 
+            x  C            9         0.559671  -0.318096  -0.479757   x 
+            x  C           10         0.444701  -0.352659  -0.493545   x 
+            x  C           11         0.492548  -0.303723  -0.479468   x 
+            x  C           12         0.432324  -0.539544  -0.535607   x 
+            x  C           13         0.372683  -0.333018  -0.492587   x 
+            x  C           14         0.352810  -0.450560  -0.520394   x 
+            x  C           15         0.327611  -0.387880  -0.508512   x 
+            x  C           16         0.442446  -0.580482  -0.472230   x 
+            x  C           17         0.253874  -0.384078  -0.510754   x 
+            x  N            1         0.654050  -0.398061  -0.499098   x 
+            x  N            2         0.797795  -0.421994  -0.490725   x 
+            x  N            3         0.418472  -0.467916  -0.521974   x 
+            x  O            1         0.354272  -0.275625  -0.477059   x 
+            x  O            2         0.228419  -0.322809  -0.526870   x 
+            x  O            3         0.218116  -0.433424  -0.500926   x 
+            x  F            1         0.558906  -0.492968  -0.524016   x 
+            x  F            2         0.602755  -0.267333  -0.463334   x 
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ 
+ 
+                         No user defined ionic velocities
+ 
+                           -------------------------------
+                                   Details of Species
+                           -------------------------------
+ 
+                               Mass of species in AMU
+                                    H    1.0080000
+                                    C   12.0109997
+                                    N   14.0070000
+                                    O   15.9989996
+                                    F   18.9979992
+ 
+                          Electric Quadrupole Moment (Barn)
+                                    H    0.0028600 Isotope  2
+                                    C    0.0332700 Isotope 11
+                                    N    0.0204400 Isotope 14
+                                    O   -0.0255800 Isotope 17
+                                    F    1.0000000 No Isotope Defined
+ 
+                          Files used for pseudopotentials:
+                                    H H_00PBE.usp
+                                    C C_00PBE.usp
+                                    N N_00PBE.usp
+                                    O O_00PBE.usp
+                                    F F_00PBE.usp
+ 
+                           -------------------------------
+                              k-Points For BZ Sampling
+                           -------------------------------
+                       MP grid size for SCF calculation is  1  1  1
+                         Number of kpoints used =           1
+ 
+             +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+             +  Number       Fractional coordinates        Weight  +
+             +-----------------------------------------------------+
+             +     1   0.000000   0.000000   0.000000   1.0000000  +
+             +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+                           -------------------------------
+                               Symmetry and Constraints
+                           -------------------------------
+ 
+                      Maximum deviation from symmetry =  0.00000         ANG
+ 
+         There are no symmetry operations specified or generated for this cell
+         There are no ionic constraints specified or generated for this cell
+                      Point group of crystal =     1: C1, 1, 1
+ 
+ 
+                         Centre of mass is NOT constrained
+ 
+                         Number of cell constraints= 6
+                         Cell constraints are:  0 0 0 0 0 0
+ 
+                         External pressure/stress (GPa)
+                          0.00000   0.00000   0.00000
+                                    0.00000   0.00000
+                                              0.00000
+ 
+                                --------------------
+                                  DFT-D parameters
+                                --------------------
+ 
+                          Dispersion-correction scheme : TS                                                                              
+                        Parameter sR :   0.940000 (default)
+                        Parameter d  :  20.000000 (default)
+ 
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        x              Atomic DFT-D parameters                             x
+        x  Species      C6            alpha        R0                      x
+        x               eV A^6        A^3          A                       x
+        x------------------------------------------------------------------x
+        x  H             3.8839       0.6668       1.6404   (default)      x
+        x  C            27.8447       1.7782       1.8997   (default)      x
+        x  N            14.4601       1.0966       1.7675   (default)      x
+        x  O             9.3214       0.8002       1.6881   (default)      x
+        x  F             5.6885       0.5631       1.6087   (default)      x
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ 
+  
++---------------- MEMORY AND SCRATCH DISK ESTIMATES PER PROCESS --------------+
+|                                                     Memory          Disk    |
+| Model and support data                               49.5 MB        46.0 MB |
+| Electronic energy minimisation requirements          11.7 MB         2.7 MB |
+|                                               ----------------------------- |
+| Approx. total storage required per process           61.2 MB        48.7 MB |
+|                                                                             |
+| Requirements will fluctuate during execution and may exceed these estimates |
++-----------------------------------------------------------------------------+
+------------------------------------------------------------------------ <-- SCF
+SCF loop      Energy                           Energy gain       Timer   <-- SCF
+                                               per atom          (sec)   <-- SCF
+------------------------------------------------------------------------ <-- SCF
+Initial  -2.96732723E+003                                          1.20  <-- SCF
+      1  -5.48814707E+003                    5.72913599E+001       2.90  <-- SCF
+      2  -6.37141942E+003                    2.00743717E+001       4.03  <-- SCF
+      3  -6.40648692E+003                    7.96988537E-001       5.06  <-- SCF
+      4  -6.38780967E+003                   -4.24482938E-001       6.53  <-- SCF
+      5  -6.38554067E+003                   -5.15679997E-002       8.01  <-- SCF
+      6  -6.38492570E+003                   -1.39767232E-002       9.27  <-- SCF
+      7  -6.38475479E+003                   -3.88435814E-003      10.91  <-- SCF
+      8  -6.38465866E+003                   -2.18465452E-003      12.18  <-- SCF
+      9  -6.38461164E+003                   -1.06865254E-003      13.47  <-- SCF
+     10  -6.38454931E+003                   -1.41656821E-003      14.70  <-- SCF
+     11  -6.38451493E+003                   -7.81367002E-004      15.97  <-- SCF
+     12  -6.38453329E+003                    4.17175435E-004      17.19  <-- SCF
+     13  -6.38455697E+003                    5.38268226E-004      18.41  <-- SCF
+     14  -6.38457370E+003                    3.80287666E-004      19.57  <-- SCF
+     15  -6.38458210E+003                    1.90685833E-004      20.75  <-- SCF
+     16  -6.38458727E+003                    1.17526290E-004      21.83  <-- SCF
+     17  -6.38459008E+003                    6.39706144E-005      22.80  <-- SCF
+     18  -6.38459284E+003                    6.27514010E-005      23.78  <-- SCF
+     19  -6.38459796E+003                    1.16341363E-004      24.79  <-- SCF
+     20  -6.38460088E+003                    6.63453519E-005      25.77  <-- SCF
+     21  -6.38460305E+003                    4.92090887E-005      26.69  <-- SCF
+     22  -6.38460498E+003                    4.40807243E-005      27.61  <-- SCF
+     23  -6.38460676E+003                    4.03935336E-005      28.53  <-- SCF
+     24  -6.38460804E+003                    2.90435304E-005      29.45  <-- SCF
+     25  -6.38460982E+003                    4.04243159E-005      30.37  <-- SCF
+     26  -6.38461088E+003                    2.41975115E-005      31.29  <-- SCF
+     27  -6.38461176E+003                    1.99873509E-005      32.22  <-- SCF
+     28  -6.38461242E+003                    1.50421325E-005      33.15  <-- SCF
+     29  -6.38461285E+003                    9.58690043E-006      34.08  <-- SCF
+     30  -6.38461314E+003                    6.73055573E-006      35.02  <-- SCF
+     31  -6.38461330E+003                    3.47159216E-006      35.95  <-- SCF
+     32  -6.38461338E+003                    1.90786459E-006      36.87  <-- SCF
+     33  -6.38461341E+003                    7.19539509E-007      37.80  <-- SCF
+     34  -6.38461343E+003                    3.20082282E-007      38.72  <-- SCF
+------------------------------------------------------------------------ <-- SCF
+ 
+Final energy =  -6384.613425203     eV
+(energy not corrected for finite basis set)
+ 
+
+Dispersion corrected final energy* =  -6385.303245160     eV
+
+ * not corrected for finite basis set
+
+
+Writing analysis data to lomefloxacina.castep_bin
+
+Writing model to lomefloxacina.check
+ 
++---------------- MEMORY AND SCRATCH DISK ESTIMATES PER PROCESS --------------+
+|                                                     Memory          Disk    |
+| Model and support data                               49.5 MB        46.0 MB |
+| Electronic energy minimisation requirements          11.7 MB         2.7 MB |
+| Geometry minimisation requirements                   15.3 MB         2.7 MB |
+|                                               ----------------------------- |
+| Approx. total storage required per process           76.5 MB        51.4 MB |
+|                                                                             |
+| Requirements will fluctuate during execution and may exceed these estimates |
++-----------------------------------------------------------------------------+
+ 
+ 
+ *********************************** Forces ***********************************
+ *                                                                            *
+ *                        Cartesian components (eV/A)                         *
+ * -------------------------------------------------------------------------- *
+ *                   x                    y                    z              *
+ *                                                                            *
+ * H         1     -0.00725             -0.00919              0.01054         *
+ * H         2      0.01146              0.02007             -0.01021         *
+ * H         3      0.00525              0.00232              0.01538         *
+ * H         4     -0.01070              0.00238              0.00687         *
+ * H         5     -0.00076              0.00362              0.01789         *
+ * H         6      0.00821              0.00269             -0.00021         *
+ * H         7      0.00198              0.00631             -0.00922         *
+ * H         8      0.01551             -0.00796             -0.00480         *
+ * H         9      0.01054              0.00396             -0.00521         *
+ * H        10     -0.01000              0.00975             -0.01805         *
+ * H        11      0.00856              0.03482             -0.00613         *
+ * H        12     -0.00492             -0.01786             -0.01380         *
+ * H        13      0.01517              0.00245              0.00777         *
+ * H        14     -0.01334              0.00756             -0.01165         *
+ * H        15     -0.00207              0.03054             -0.01394         *
+ * H        16      0.01498             -0.03611              0.01293         *
+ * H        17     -0.00243             -0.00252              0.02127         *
+ * H        18      0.00831             -0.01304             -0.00350         *
+ * H        19     -0.00305              0.01887             -0.00796         *
+ * C         1     -0.01769             -0.00463              0.00618         *
+ * C         2     -0.00168             -0.02025             -0.01551         *
+ * C         3     -0.01316             -0.00562              0.01817         *
+ * C         4     -0.00318              0.00932             -0.00459         *
+ * C         5     -0.00744             -0.00742             -0.00094         *
+ * C         6     -0.01418             -0.01276             -0.00136         *
+ * C         7      0.00388              0.03946              0.01412         *
+ * C         8      0.00167              0.02049              0.01370         *
+ * C         9     -0.03076             -0.02179              0.01492         *
+ * C        10     -0.01198             -0.00868             -0.00080         *
+ * C        11     -0.00904             -0.03370             -0.00426         *
+ * C        12     -0.00750              0.03219             -0.01145         *
+ * C        13      0.01848             -0.01950              0.00109         *
+ * C        14      0.01901              0.02245             -0.01942         *
+ * C        15      0.02433             -0.00673             -0.00928         *
+ * C        16     -0.01287             -0.00414             -0.00817         *
+ * C        17      0.01020             -0.02184             -0.00301         *
+ * N         1     -0.01266             -0.00031              0.01093         *
+ * N         2     -0.01806              0.00578             -0.00419         *
+ * N         3     -0.00870              0.02799             -0.01602         *
+ * O         1      0.01666             -0.02132              0.00822         *
+ * O         2      0.02810             -0.02613              0.00476         *
+ * O         3      0.00771              0.00831              0.01694         *
+ * F         1      0.00890              0.01728             -0.00964         *
+ * F         2     -0.01550             -0.02711              0.01164         *
+ *                                                                            *
+ ******************************************************************************
+ BFGS: finished iteration     0 with enthalpy= -6.38530325E+003 eV
+  
+ +-----------+-----------------+-----------------+------------+-----+ <-- BFGS
+ | Parameter |      value      |    tolerance    |    units   | OK? | <-- BFGS
+ +-----------+-----------------+-----------------+------------+-----+ <-- BFGS
+ |  dE/ion   |   0.000000E+000 |   2.000000E-005 |         eV | Yes | <-- BFGS
+ |  |F|max   |   4.208493E-002 |   5.000000E-002 |       eV/A | Yes | <-- BFGS
+ |  |dR|max  |   0.000000E+000 |   2.000000E-003 |          A | Yes | <-- BFGS
+ +-----------+-----------------+-----------------+------------+-----+ <-- BFGS
+  
+ BFGS : Geometry optimization completed successfully.
+
+================================================================================
+ BFGS : Final Configuration:
+================================================================================
+ 
+                           -------------------------------
+                                     Cell Contents
+                           -------------------------------
+ 
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            x  Element    Atom        Fractional coordinates of atoms  x
+            x            Number           u          v          w      x
+            x----------------------------------------------------------x
+            x  H            1         0.759483  -0.402268  -0.585017   x
+            x  H            2         0.711108  -0.311025  -0.472469   x
+            x  H            3         0.680115  -0.314186  -0.555939   x
+            x  H            4         0.645802  -0.487827  -0.444054   x
+            x  H            5         0.687056  -0.421685  -0.400625   x
+            x  H            6         0.769658  -0.503664  -0.431768   x
+            x  H            7         0.742287  -0.506099  -0.516124   x
+            x  H            8         0.814343  -0.397322  -0.448636   x
+            x  H            9         0.867896  -0.340820  -0.567223   x
+            x  H           10         0.802169  -0.286405  -0.593371   x
+            x  H           11         0.827141  -0.287486  -0.508440   x
+            x  H           12         0.475394  -0.253525  -0.466782   x
+            x  H           13         0.388405  -0.557598  -0.563165   x
+            x  H           14         0.475450  -0.544218  -0.568886   x
+            x  H           15         0.318019  -0.491245  -0.530066   x
+            x  H           16         0.484636  -0.561304  -0.442768   x
+            x  H           17         0.397332  -0.579338  -0.441071   x
+            x  H           18         0.452936  -0.632903  -0.485111   x
+            x  H           19         0.179503  -0.329202  -0.525815   x
+            x  C            1         0.769294  -0.374090  -0.538568   x
+            x  C            2         0.702023  -0.344526  -0.515625   x
+            x  C            3         0.681028  -0.446160  -0.450195   x
+            x  C            4         0.748938  -0.473200  -0.472489   x
+            x  C            5         0.585700  -0.382122  -0.494726   x
+            x  C            6         0.819616  -0.318981  -0.552867   x
+            x  C            7         0.536087  -0.430389  -0.507642   x
+            x  C            8         0.466666  -0.418719  -0.507377   x
+            x  C            9         0.559671  -0.318096  -0.479757   x
+            x  C           10         0.444701  -0.352659  -0.493545   x
+            x  C           11         0.492548  -0.303723  -0.479468   x
+            x  C           12         0.432324  -0.539544  -0.535607   x
+            x  C           13         0.372683  -0.333018  -0.492587   x
+            x  C           14         0.352810  -0.450560  -0.520394   x
+            x  C           15         0.327611  -0.387880  -0.508512   x
+            x  C           16         0.442446  -0.580482  -0.472230   x
+            x  C           17         0.253874  -0.384078  -0.510754   x
+            x  N            1         0.654050  -0.398061  -0.499098   x
+            x  N            2         0.797795  -0.421994  -0.490725   x
+            x  N            3         0.418472  -0.467916  -0.521974   x
+            x  O            1         0.354272  -0.275625  -0.477059   x
+            x  O            2         0.228419  -0.322809  -0.526870   x
+            x  O            3         0.218116  -0.433424  -0.500926   x
+            x  F            1         0.558906  -0.492968  -0.524016   x
+            x  F            2         0.602755  -0.267333  -0.463334   x
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ 
+ 
+ BFGS : Final Enthalpy     = -6.38530325E+003 eV
+ BFGS : Final <frequency>  unchanged from initial value
+ 
+ *********************************** Forces ***********************************
+ *                                                                            *
+ *                        Cartesian components (eV/A)                         *
+ * -------------------------------------------------------------------------- *
+ *                   x                    y                    z              *
+ *                                                                            *
+ * H         1     -0.00725             -0.00919              0.01054         *
+ * H         2      0.01146              0.02007             -0.01021         *
+ * H         3      0.00525              0.00232              0.01538         *
+ * H         4     -0.01070              0.00238              0.00687         *
+ * H         5     -0.00076              0.00362              0.01789         *
+ * H         6      0.00821              0.00269             -0.00021         *
+ * H         7      0.00198              0.00631             -0.00922         *
+ * H         8      0.01551             -0.00796             -0.00480         *
+ * H         9      0.01054              0.00396             -0.00521         *
+ * H        10     -0.01000              0.00975             -0.01805         *
+ * H        11      0.00856              0.03482             -0.00613         *
+ * H        12     -0.00492             -0.01786             -0.01380         *
+ * H        13      0.01517              0.00245              0.00777         *
+ * H        14     -0.01334              0.00756             -0.01165         *
+ * H        15     -0.00207              0.03054             -0.01394         *
+ * H        16      0.01498             -0.03611              0.01293         *
+ * H        17     -0.00243             -0.00252              0.02127         *
+ * H        18      0.00831             -0.01304             -0.00350         *
+ * H        19     -0.00305              0.01887             -0.00796         *
+ * C         1     -0.01769             -0.00463              0.00618         *
+ * C         2     -0.00168             -0.02025             -0.01551         *
+ * C         3     -0.01316             -0.00562              0.01817         *
+ * C         4     -0.00318              0.00932             -0.00459         *
+ * C         5     -0.00744             -0.00742             -0.00094         *
+ * C         6     -0.01418             -0.01276             -0.00136         *
+ * C         7      0.00388              0.03946              0.01412         *
+ * C         8      0.00167              0.02049              0.01370         *
+ * C         9     -0.03076             -0.02179              0.01492         *
+ * C        10     -0.01198             -0.00868             -0.00080         *
+ * C        11     -0.00904             -0.03370             -0.00426         *
+ * C        12     -0.00750              0.03219             -0.01145         *
+ * C        13      0.01848             -0.01950              0.00109         *
+ * C        14      0.01901              0.02245             -0.01942         *
+ * C        15      0.02433             -0.00673             -0.00928         *
+ * C        16     -0.01287             -0.00414             -0.00817         *
+ * C        17      0.01020             -0.02184             -0.00301         *
+ * N         1     -0.01266             -0.00031              0.01093         *
+ * N         2     -0.01806              0.00578             -0.00419         *
+ * N         3     -0.00870              0.02799             -0.01602         *
+ * O         1      0.01666             -0.02132              0.00822         *
+ * O         2      0.02810             -0.02613              0.00476         *
+ * O         3      0.00771              0.00831              0.01694         *
+ * F         1      0.00890              0.01728             -0.00964         *
+ * F         2     -0.01550             -0.02711              0.01164         *
+ *                                                                            *
+ ******************************************************************************
+ 
+ Pseudo atomic calculation performed for H 1s1
+ 
+ Converged in 13 iterations to a total energy of -12.4601 eV
+ 
+ 
+ Pseudo atomic calculation performed for C 2s2 2p2
+ 
+ Converged in 17 iterations to a total energy of -145.7942 eV
+ 
+ 
+ Pseudo atomic calculation performed for N 2s2 2p3
+ 
+ Converged in 21 iterations to a total energy of -262.6886 eV
+ 
+ 
+ Pseudo atomic calculation performed for O 2s2 2p4
+ 
+ Converged in 23 iterations to a total energy of -429.2136 eV
+ 
+ 
+ Pseudo atomic calculation performed for F 2s2 2p5
+ 
+ Converged in 15 iterations to a total energy of -657.5806 eV
+ 
+Charge spilling parameter for spin component 1 = 1.32%
+ 
+     Atomic Populations (Mulliken)
+     -----------------------------
+Species   Ion     s      p      d      f     Total  Charge (e)
+==============================================================
+  H        1     0.71   0.00   0.00   0.00   0.71     0.29
+  H        2     0.75   0.00   0.00   0.00   0.75     0.25
+  H        3     0.71   0.00   0.00   0.00   0.71     0.29
+  H        4     0.70   0.00   0.00   0.00   0.70     0.30
+  H        5     0.76   0.00   0.00   0.00   0.76     0.24
+  H        6     0.70   0.00   0.00   0.00   0.70     0.30
+  H        7     0.71   0.00   0.00   0.00   0.71     0.29
+  H        8     0.60   0.00   0.00   0.00   0.60     0.40
+  H        9     0.70   0.00   0.00   0.00   0.70     0.30
+  H       10     0.72   0.00   0.00   0.00   0.72     0.28
+  H       11     0.74   0.00   0.00   0.00   0.74     0.26
+  H       12     0.64   0.00   0.00   0.00   0.64     0.36
+  H       13     0.70   0.00   0.00   0.00   0.70     0.30
+  H       14     0.68   0.00   0.00   0.00   0.68     0.32
+  H       15     0.66   0.00   0.00   0.00   0.66     0.34
+  H       16     0.72   0.00   0.00   0.00   0.72     0.28
+  H       17     0.71   0.00   0.00   0.00   0.71     0.29
+  H       18     0.71   0.00   0.00   0.00   0.71     0.29
+  H       19     0.46   0.00   0.00   0.00   0.46     0.54
+  C        1     1.19   2.94   0.00   0.00   4.13    -0.13
+  C        2     1.28   3.13   0.00   0.00   4.41    -0.41
+  C        3     1.29   3.12   0.00   0.00   4.41    -0.41
+  C        4     1.29   3.13   0.00   0.00   4.42    -0.42
+  C        5     1.02   2.90   0.00   0.00   3.91     0.09
+  C        6     1.40   3.42   0.00   0.00   4.82    -0.82
+  C        7     1.00   2.69   0.00   0.00   3.69     0.31
+  C        8     1.01   2.89   0.00   0.00   3.90     0.10
+  C        9     1.01   2.68   0.00   0.00   3.69     0.31
+  C       10     1.08   2.98   0.00   0.00   4.05    -0.05
+  C       11     1.17   3.13   0.00   0.00   4.30    -0.30
+  C       12     1.30   3.12   0.00   0.00   4.41    -0.41
+  C       13     0.98   2.64   0.00   0.00   3.62     0.38
+  C       14     1.13   2.95   0.00   0.00   4.08    -0.08
+  C       15     1.07   3.06   0.00   0.00   4.13    -0.13
+  C       16     1.41   3.41   0.00   0.00   4.82    -0.82
+  C       17     0.93   2.44   0.00   0.00   3.36     0.64
+  N        1     1.43   3.91   0.00   0.00   5.34    -0.34
+  N        2     1.56   4.08   0.00   0.00   5.64    -0.64
+  N        3     1.40   3.87   0.00   0.00   5.26    -0.26
+  O        1     1.83   4.72   0.00   0.00   6.55    -0.55
+  O        2     1.83   4.84   0.00   0.00   6.67    -0.67
+  O        3     1.83   4.75   0.00   0.00   6.58    -0.58
+  F        1     1.93   5.42   0.00   0.00   7.35    -0.35
+  F        2     1.93   5.42   0.00   0.00   7.35    -0.35
+==============================================================
+ 
+            Bond              Population      Length (A)
+============================================================
+         H 19 -- O 2               0.49        0.98688
+         H 8  -- N 2               0.71        1.03034
+         H 15 -- C 14              0.88        1.08797
+         H 12 -- C 11              0.82        1.09088
+         H 14 -- C 12              0.84        1.09346
+         H 10 -- C 6               0.81        1.09657
+         H 17 -- C 16              0.81        1.09681
+         H 9  -- C 6               0.81        1.09799
+         H 13 -- C 12              0.86        1.09805
+         H 4  -- C 3               0.84        1.09812
+         H 6  -- C 4               0.83        1.09828
+         H 16 -- C 16              0.81        1.09832
+         H 11 -- C 6               0.82        1.09951
+         H 18 -- C 16              0.80        1.09981
+         H 3  -- C 2               0.84        1.10013
+         H 7  -- C 4               0.82        1.10101
+         H 1  -- C 1               0.84        1.10412
+         H 2  -- C 2               0.82        1.10768
+         H 5  -- C 3               0.81        1.11222
+         C 17 -- O 3               1.08        1.23454
+         C 13 -- O 1               1.05        1.24483
+         C 14 -- N 3               0.94        1.35872
+         C 17 -- O 2               0.63        1.36552
+         C 9  -- F 2               0.45        1.37155
+         C 14 -- C 15              1.17        1.37185
+         C 7  -- F 1               0.44        1.37185
+         C 9  -- C 11              1.15        1.37290
+         C 10 -- C 11              1.06        1.39746
+         C 5  -- N 1               0.88        1.40638
+         C 7  -- C 8               1.14        1.40791
+         C 8  -- N 3               0.84        1.40798
+         C 5  -- C 7               1.12        1.40828
+         C 5  -- C 9               1.07        1.41435
+         C 8  -- C 10              1.08        1.41953
+         C 13 -- C 15              0.88        1.45532
+         C 4  -- N 2               0.66        1.46172
+         C 1  -- N 2               0.69        1.46916
+         C 3  -- N 1               0.67        1.47418
+         C 2  -- N 1               0.68        1.47520
+         C 15 -- C 17              0.84        1.47739
+         C 12 -- N 3               0.63        1.48437
+         C 10 -- C 13              0.85        1.49309
+         C 1  -- C 6               0.69        1.51970
+         C 12 -- C 16              0.64        1.52250
+         C 3  -- C 4               0.68        1.52839
+         C 1  -- C 2               0.73        1.53958
+         H 13 -- H 14             -0.11        1.76506
+         H 10 -- H 11             -0.10        1.77065
+         H 6  -- H 7              -0.11        1.77437
+         H 17 -- H 18             -0.09        1.77771
+         H 16 -- H 18             -0.09        1.78037
+         H 2  -- H 3              -0.12        1.78191
+         H 16 -- H 17             -0.11        1.78325
+         H 9  -- H 11             -0.10        1.78446
+         H 4  -- H 5              -0.13        1.78468
+         H 9  -- H 10             -0.09        1.78490
+         H 19 -- C 17             -0.21        1.87289
+         H 13 -- H 15             -0.05        2.04475
+         H 8  -- C 4              -0.17        2.05953
+         H 13 -- N 3              -0.11        2.06337
+         H 8  -- C 1              -0.17        2.06465
+         H 15 -- N 3              -0.11        2.06888
+         H 1  -- N 2              -0.14        2.07344
+         H 7  -- N 2              -0.13        2.07844
+         H 6  -- N 2              -0.11        2.09165
+         H 3  -- N 1              -0.11        2.09239
+         H 4  -- N 1              -0.10        2.11242
+         H 15 -- C 15             -0.15        2.12046
+         H 14 -- N 3              -0.11        2.12313
+         H 5  -- N 1              -0.15        2.13021
+         H 12 -- C 9              -0.13        2.13919
+         H 1  -- C 2              -0.17        2.14018
+         H 12 -- C 10             -0.12        2.14344
+         H 6  -- C 3              -0.14        2.14489
+         H 2  -- N 1              -0.14        2.14849
+         H 1  -- C 6              -0.13        2.15278
+         H 14 -- F 1              -0.02        2.15451
+         H 5  -- C 4              -0.16        2.15850
+         H 9  -- C 1              -0.12        2.15873
+         H 4  -- C 4              -0.12        2.15959
+         H 18 -- C 12             -0.11        2.16247
+         H 7  -- C 3              -0.16        2.16258
+         H 13 -- C 16             -0.14        2.16456
+         H 2  -- C 1              -0.15        2.16628
+         H 17 -- C 12             -0.12        2.16749
+         H 14 -- C 16             -0.14        2.16764
+         H 11 -- C 1              -0.12        2.16834
+         H 10 -- C 1              -0.11        2.17005
+         H 16 -- C 12             -0.12        2.17524
+         H 3  -- C 1              -0.11        2.17653
+         H 19 -- O 3              -0.01        2.27796
+          O 2 -- O 3              -0.18        2.28167
+         H 6  -- H 8              -0.05        2.33150
+         C 11 -- F 2              -0.16        2.34352
+         H 2  -- F 2              -0.02        2.34375
+         C 5  -- F 1              -0.15        2.35480
+         C 7  -- C 9              -0.21        2.36167
+         H 4  -- F 1              -0.01        2.36399
+         C 15 -- O 3              -0.19        2.37664
+         C 8  -- C 14             -0.24        2.37879
+         H 15 -- O 3               0.00        2.38101
+         C 8  -- F 1              -0.14        2.39149
+         C 14 -- C 17             -0.22        2.39174
+         C 15 -- O 1              -0.20        2.39176
+         C 10 -- O 1              -0.19        2.39861
+         C 15 -- O 2              -0.20        2.40086
+         C 5  -- F 2              -0.13        2.40440
+         C 12 -- C 14             -0.23        2.40600
+         H 5  -- H 6              -0.03        2.40944
+         H 13 -- C 14             -0.09        2.41275
+         C 7  -- C 10             -0.19        2.41596
+         C 9  -- C 10             -0.19        2.41685
+         C 1  -- C 4              -0.19        2.41690
+         C 8  -- C 11             -0.20        2.42262
+         C 10 -- N 3              -0.16        2.43148
+         H 4  -- H 7              -0.04        2.43616
+         C 15 -- N 3              -0.18        2.43660
+         H 1  -- H 3              -0.03        2.44157
+         C 6  -- N 2              -0.16        2.44536
+         C 13 -- C 14             -0.16        2.44821
+         C 7  -- N 1              -0.18        2.45222
+         C 2  -- C 3              -0.17        2.45369
+         C 5  -- C 11             -0.20        2.45410
+         C 3  -- C 5              -0.20        2.46345
+         C 10 -- C 15             -0.26        2.46369
+         H 12 -- O 1               0.01        2.47101
+         H 2  -- H 11             -0.01        2.47481
+         H 1  -- H 10             -0.03        2.47516
+         C 4  -- N 1              -0.14        2.47853
+         C 2  -- C 5              -0.20        2.48041
+         H 14 -- H 18             -0.03        2.48114
+         C 11 -- C 13             -0.18        2.48177
+         C 1  -- N 1              -0.14        2.48304
+         H 15 -- C 12             -0.08        2.48428
+         C 7  -- N 3              -0.17        2.48570
+         H 13 -- H 17             -0.04        2.48671
+         C 5  -- C 8              -0.18        2.50349
+         C 9  -- N 1              -0.16        2.50406
+         C 16 -- N 3              -0.15        2.50762
+         H 4  -- H 6              -0.02        2.50934
+         C 2  -- N 2              -0.14        2.51346
+         H 8  -- H 11             -0.01        2.51430
+         H 1  -- H 7              -0.01        2.51578
+         H 1  -- H 9              -0.03        2.51760
+         C 3  -- N 2              -0.14        2.51883
+         C 2  -- C 6              -0.17        2.51932
+         H 13 -- H 18             -0.02        2.52409
+         H 15 -- C 17             -0.07        2.52763
+         H 14 -- H 16             -0.03        2.55202
+         C 8  -- C 13             -0.13        2.56095
+         H 12 -- F 2              -0.02        2.56308
+         C 8  -- C 12             -0.16        2.57489
+         H 3  -- F 2              -0.01        2.58886
+         H 16 -- F 1               0.00        2.59130
+         H 8  -- C 6              -0.05        2.60992
+         C 13 -- C 17             -0.13        2.61172
+         H 3  -- H 10             -0.01        2.61306
+         H 3  -- C 5              -0.05        2.62879
+         H 4  -- C 5              -0.05        2.63465
+         H 9  -- N 2              -0.02        2.63479
+         H 12 -- C 13             -0.06        2.64837
+         H 1  -- C 4              -0.04        2.66871
+         H 2  -- H 5               0.02        2.68221
+         H 2  -- C 6              -0.04        2.70563
+         C 12 -- F 1              -0.04        2.70753
+         H 1  -- N 1              -0.01        2.72147
+         C 2  -- F 2              -0.03        2.72377
+         H 7  -- C 1              -0.04        2.73199
+         H 2  -- H 8               0.00        2.73295
+          N 1 -- F 1              -0.01        2.73354
+         C 7  -- C 11             -0.12        2.73742
+         C 10 -- C 14             -0.10        2.73858
+         C 14 -- O 3              -0.06        2.74337
+         H 11 -- C 2              -0.04        2.75389
+         H 5  -- H 8               0.00        2.76410
+         H 11 -- N 2              -0.02        2.77615
+         H 16 -- N 3              -0.02        2.78370
+         H 4  -- C 7              -0.03        2.78424
+         H 5  -- C 2              -0.04        2.78587
+         H 17 -- N 3              -0.02        2.78618
+         H 10 -- C 2              -0.02        2.78939
+         H 3  -- C 6              -0.03        2.79234
+         C 8  -- C 9              -0.09        2.79555
+         H 14 -- C 8              -0.03        2.80075
+         H 2  -- C 3              -0.03        2.80446
+         H 7  -- N 1              -0.01        2.81055
+         H 8  -- C 2              -0.02        2.82069
+         C 11 -- O 1              -0.05        2.82246
+         H 8  -- H 9              -0.01        2.83713
+         H 8  -- C 3              -0.02        2.83974
+         H 2  -- N 2              -0.02        2.83987
+         C 8  -- C 15             -0.07        2.84875
+         H 3  -- C 9              -0.02        2.85136
+          N 3 -- F 1              -0.01        2.85331
+         H 5  -- N 2              -0.02        2.85527
+         H 14 -- C 7              -0.02        2.85549
+          O 1 -- O 2              -0.01        2.86679
+         C 2  -- C 4              -0.05        2.87184
+         H 5  -- C 5              -0.03        2.87703
+         C 5  -- C 10             -0.08        2.88100
+         C 1  -- C 3              -0.06        2.88408
+          N 1 -- F 2               0.00        2.89828
+         C 13 -- N 3              -0.05        2.90913
+         H 2  -- C 5              -0.01        2.91735
+          N 1 -- N 2              -0.02        2.91930
+         H 7  -- H 8               0.04        2.93795
+         H 1  -- H 8               0.04        2.94168
+         H 15 -- H 17              0.00        2.96453
+         C 13 -- O 2              -0.01        2.97264
+         C 2  -- C 9              -0.06        2.98323
+============================================================
+ 
+ 
+     Hirshfeld Analysis
+     ------------------
+Species   Ion     Hirshfeld Charge (e)
+======================================
+  H        1                 0.03
+  H        2                 0.02
+  H        3                 0.04
+  H        4                 0.03
+  H        5                 0.03
+  H        6                 0.04
+  H        7                 0.03
+  H        8                 0.09
+  H        9                 0.04
+  H       10                 0.04
+  H       11                 0.03
+  H       12                 0.05
+  H       13                 0.05
+  H       14                 0.04
+  H       15                 0.05
+  H       16                 0.03
+  H       17                 0.04
+  H       18                 0.05
+  H       19                 0.16
+  C        1                 0.00
+  C        2                -0.05
+  C        3                -0.05
+  C        4                -0.04
+  C        5                 0.01
+  C        6                -0.12
+  C        7                 0.06
+  C        8                 0.03
+  C        9                 0.06
+  C       10                -0.03
+  C       11                -0.06
+  C       12                -0.02
+  C       13                 0.08
+  C       14                 0.02
+  C       15                -0.06
+  C       16                -0.12
+  C       17                 0.16
+  N        1                -0.08
+  N        2                -0.16
+  N        3                -0.01
+  O        1                -0.28
+  O        2                -0.18
+  O        3                -0.30
+  F        1                -0.05
+  F        2                -0.07
+======================================
+ 
+
+Writing analysis data to lomefloxacina.castep_bin
+
+Writing model to lomefloxacina.check
+ 
+ A BibTeX formatted list of references used in this run has been written to 
+ lomefloxacina.bib
+ 
+Initialisation time =      0.48 s
+Calculation time    =     42.31 s
+Finalisation time   =      2.06 s
+Total time          =     44.85 s
+Peak Memory Use     = 329536 kB
+  
+Overall parallel efficiency rating: Good (71%)                                  
+  
+Data was distributed by:-
+G-vector (18-way); efficiency rating: Good (72%)                                
+  
+Parallel notes:
+1) Calculation only took 42.8 s, so efficiency estimates may be inaccurate.     
