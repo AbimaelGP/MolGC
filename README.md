@@ -27,7 +27,7 @@ Third level: Inside each specific antibiotic folder are folders named according 
 
 Fourth level: Inside the CASTEP, FHI-aims, or Gaussian folders are folders corresponding to different levels of theory to obtain the minimum energy geometry. For example, for the CASTEP software, the theory levels evaluated are LDA, LDA+OBS, PBE, and PBE+TS. Therefore, there is a folder for each of these functionals.
 
-Fifth level: Finally, inside the folders of each different theory level (e.g., LDA, LDA+OBS, PBE, and PBE+TS) is a file with the extension .castep, .out, or .log (extension .xyz is also supported).These files contain information about the spatial coordinates of the optimized geometry of the molecules. These files are processed to compare geometries at different theory levels, thereby performing statistical analysis on their variations and the absolute error percentage concerning the reference molecule. This referece can be selected from software menu.
+Fifth level: Finally, inside the folders of each different theory level (e.g., LDA, LDA+OBS, PBE, and PBE+TS) is a file with the extension .castep, .out, or .log (extension .xyz is also supported, see example of Molecules-Crystals files in this repository).These files contain information about the spatial coordinates of the optimized geometry of the molecules. These files are processed to compare geometries at different theory levels, thereby performing statistical analysis on their variations and the absolute error percentage concerning the reference molecule. This referece can be selected from software menu.
 
 ## 2)Download MolGC software
 
