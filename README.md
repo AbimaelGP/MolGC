@@ -11,7 +11,9 @@ This repository hosts a collection of molecular geometry files generated using D
 
 # Instructions:
 
-## 1)Ensure to add a folder named "Molecules" inside the main folder.
+## 1)Prepare your files
+
+Ensure to add a folder named "Molecules" inside the main folder.
 
 Example: C:\Users\Assigned User\Desktop\Mainfolder\Molecules
 
@@ -27,11 +29,13 @@ Fourth level: Inside the CASTEP, FHI-aims, or Gaussian folders are folders corre
 
 Fifth level: Finally, inside the folders of each different theory level (e.g., LDA, LDA+OBS, PBE, and PBE+TS) is a file with the extension .castep, .out, or .log (extension .xyz is also supported).These files contain information about the spatial coordinates of the optimized geometry of the molecules. These files are processed to compare geometries at different theory levels, thereby performing statistical analysis on their variations and the absolute error percentage concerning the reference molecule. This referece can be selected from software menu.
 
-## 2)Ensure to add a folder named "SoftwareMolGC" inside the main folder.
+## 2)Download MolGC software
+
+Ensure to add a folder named "SoftwareMolGC" inside the main folder.
 
 Example: C:\Users\Assigned User\Desktop\Mainfolder\SoftwareMolGC
 download the .exe file from:
-https://drive.google.com/file/d/1LIWz2i9R6OR2iskV27tD4KlR1kloa0h3/view?usp=sharing
+[](https://drive.google.com/file/d/1LIWz2i9R6OR2iskV27tD4KlR1kloa0h3/view?usp=sharing)
 place the executable Main.exe file inside the "SoftwareMolGC" folder.
 
 ## 3)Initiate Your Comparative Analysis.
