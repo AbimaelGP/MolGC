@@ -17,7 +17,7 @@ Example: C:\Users\Assigned User\Desktop\Mainfolder\Molecules
 
 The Molecules folder has five levels of folders:
 
-First level: The first folders are named according to a family of molecules to be evaluated. In this case, the families of antibiotics are Nitrofurans, Quinolones, and Fluoroquinolones.
+First level: The first folders are named according to a family of molecules to be evaluated. In this example, we include several molecular families used in our study, specifically antibiotics. These families are Nitrofurans, Quinolones, and Fluoroquinolones.
 
 Second level: Inside the folders of each antibiotic family are specific folders for each different type of antibiotic. For example, within the Fluoroquinolones folder, there are folders corresponding to antibiotics like ciprofloxacin, enoxacin, fleroxacin, etc.
 
@@ -34,7 +34,7 @@ download the .exe file from:
 https://drive.google.com/file/d/1LIWz2i9R6OR2iskV27tD4KlR1kloa0h3/view?usp=sharing
 place the executable Main.exe file inside the "SoftwareMolGC" folder.
 
-## 3)Start making comparisons.
+## 3)Initiate Your Comparative Analysis.
 
 Attention: We recommend disabling your computer's antivirus software so that it does not recognise the Main.exe program as a threat.
 
