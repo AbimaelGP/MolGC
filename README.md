@@ -67,10 +67,7 @@ The following files are found: MAE_perfamily_permolecule.html and Table_MAE_gene
 - The MAE_perfamily_permolecule.html file contains 3D graphs of average absolute error percentage statistics by molecule family.
 - The Table_MAE_general.xlsx file contains numerical information on the average error of the comparisons made for each bond of the different functionals by molecule family.
 
-Finally, within the 'Files' folder or path:
-C:\Users\Assigned User\Desktop\Mainfolder\Files
-
-The file MAE_general.html is found:
+Finally, within the 'Files' folder or path: C:\Users\Assigned User\Desktop\Mainfolder\Files, the file MAE_general.html is found.
 
 - The MAE_general.html file contains 3D graphs of average absolute error percentage statistics for all evaluated molecule families.
 
