@@ -7,8 +7,7 @@ MolGC: Molecular Geometry Comparator Algorithm for Bond Length Mean Absolute Err
 
 # Desrciption of the repository
 
-This repository contains a set of files of molecule geometries obtained by DFT or ab-initio software that will be used to compare the mean absolute bond lengths.
-Also, it contains the executable .exe file of the MolGC software.
+This repository hosts a collection of molecular geometry files generated using Density Functional Theory (DFT) or ab-initio methods. These files will be used for comparative analysis of mean absolute bond lengths. Additionally, the repository includes the executable file (.exe) for the MolGC software.
 
 # Instructions:
 
