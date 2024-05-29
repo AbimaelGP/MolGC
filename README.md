@@ -54,22 +54,25 @@ For example, after running the program at the path:
 C:\Users\Assigned User\Desktop\Mainfolder\Files\FLUOROQUINOLONES\ciprofloxacin_files
 
 The following files are found: ciprofloxacin.html, ciprofloxacin_Structure.html, Table_MAE_ciprofloxacin.xlsx
-•	The ciprofloxacin.html file contains 3D graphs of absolute error percentage statistics.
-•	The ciprofloxacin_Structure.html file contains an interactive 3D visualization of the molecules compared. It allows for verifying the correct overlap and the bonds and different elements evaluated.
-•	The Table_MAE_ciprofloxacin.xlsx file contains numerical information on the comparisons made for each bond of the different functionals.
+
+- 	The ciprofloxacin.html file contains 3D graphs of absolute error percentage statistics.
+- 	The ciprofloxacin_Structure.html file contains an interactive 3D visualization of the molecules compared. It allows for verifying the correct overlap and the bonds and different elements evaluated.
+- 	The Table_MAE_ciprofloxacin.xlsx file contains numerical information on the comparisons made for each bond of the different functionals.
 
 Graphical and document information in Excel format is also available by molecule family.
 For example, at the path: C:\Users\Assigned User\Desktop\Mainfolder\Files\FLUOROQUINOLONES
 
 The following files are found: MAE_perfamily_permolecule.html and Table_MAE_general.xlsx
-•	The MAE_perfamily_permolecule.html file contains 3D graphs of average absolute error percentage statistics by molecule family.
-•	The Table_MAE_general.xlsx file contains numerical information on the average error of the comparisons made for each bond of the different functionals by molecule family.
+
+- The MAE_perfamily_permolecule.html file contains 3D graphs of average absolute error percentage statistics by molecule family.
+- The Table_MAE_general.xlsx file contains numerical information on the average error of the comparisons made for each bond of the different functionals by molecule family.
 
 Finally, within the 'Files' folder or path:
 C:\Users\Assigned User\Desktop\Mainfolder\Files
 
 The file MAE_general.html is found:
-•	The MAE_general.html file contains 3D graphs of average absolute error percentage statistics for all evaluated molecule families.
+
+- The MAE_general.html file contains 3D graphs of average absolute error percentage statistics for all evaluated molecule families.
 
 ![image](https://github.com/AbimaelGP/MolGC/assets/167240268/1084a936-8de2-4e61-aac3-6b70e0a2aed2)
 
