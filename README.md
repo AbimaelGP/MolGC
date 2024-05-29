@@ -2,8 +2,14 @@
 MolGC: Molecular Geometry Comparator Algorithm for Bond Length Mean Absolute Error Computation on Molecules
 ![image](https://github.com/AbimaelGP/MolGC/assets/167240268/99c9a283-d1c8-4ee2-8685-5f0e09364993)
 
-# Instructions:
+## This paper is currently under review
 
+# Desrciption of the repository
+
+This repository contains a set of files of molecule geometries obtained by DFT or ab-initio software that will be used to compare the mean absolute bond lengths.
+Also, it contains the executable .exe file of the MolGC software.
+
+# Instructions:
 
 ## 1)Ensure to add a folder named "Molecules" inside the main folder.
 
