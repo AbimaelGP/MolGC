@@ -13,7 +13,7 @@ This repository hosts a collection of molecular geometry files generated using D
 
 ## 1)Prepare your files
 
-Ensure to add a folder named "Molecules" inside the main folder.
+Ensure to have a folder named "Molecules" inside the main folder.
 
 Example: C:\Users\Assigned User\Desktop\Mainfolder\Molecules
 
